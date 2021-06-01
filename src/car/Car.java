@@ -23,5 +23,9 @@ public class Car {
         enter = now.getTime();
     }
 
+    public Date getEnter() {
+        return enter;
+    }
+
 }
 
